@@ -55,7 +55,7 @@ export const Variants: Story = {
 
 export const Sizes: Story = {
   render: (args) => (
-    <div className="flex flex-col gap-4 w-80">
+    <div className="flex flex-col gap-4">
       <Input {...args} size="sm" label="Small" placeholder="Small input" />
       <Input {...args} size="md" label="Medium" placeholder="Medium input" />
       <Input {...args} size="lg" label="Large" placeholder="Large input" />

@@ -107,11 +107,8 @@ export default function DataTable<T>({
                     type="checkbox"
                     checked={selectedRows.includes(row)}
                     onChange={() => handleSelectRow(row)}
-                    className="h-4 w-4 cursor-pointer rounded-md border-2 border-gray-300 dark:border-gray-600 
-                      checked:bg-indigo-500 checked:border-indigo-500 
-                      focus:ring-0 focus:ring-offset-0
-                      dark:checked:bg-indigo-400 dark:checked:border-indigo-400 
-                      transition-colors"
+                    className="h-5 w-5 cursor-pointer appearance-none border border-gray-400 rounded-sm 
+             checked:bg-indigo-500 checked:border-indigo-500 dark:border-gray-600 dark:checked:bg-indigo-400 transition-colors"
                   />
                 </td>
               )}

@@ -1,3 +1,16 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html.light {
+    @apply bg-white text-gray-900;
+  }
+  html.dark {
+    @apply bg-gray-900 text-white;
+  }
+
+  body {
+    @apply min-h-screen;
+  }
+}
